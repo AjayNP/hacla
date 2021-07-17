@@ -43,7 +43,7 @@ padding-top: 10px;
 .resources h3, .gallery h3{font-size: 24px; font-weight: 700; margin-bottom: 20px;}
 #accordion .card{margin-bottom: 10px; border-radius: 0; border: 1px solid #000;}
 #accordion .card-header{padding: 0;border-bottom: none; background-color: transparent;}
-#accordion .card-header .btn{font-size: 16px; color: #000; font-weight: 700; padding: 2px 45px 0; pointer-events: none;}
+#accordion .card-header .btn{font-size: 16px; color: #000; font-weight: 700; padding: 2px 45px 0; pointer-events: none; white-space: unset; text-align: left;}
 #accordion .card-header .btn:hover, #accordion .card-header .btn:focus{text-decoration: none;}
 #accordion .card-body, .resources p{font-size: 14px; padding: 5px 10px 10px 45px;}
 .expand-action{width: 30px; position: absolute; text-align: center; line-height: 30px; height: 100%; background-color: #F47E3D; color: #fff;}
