@@ -14,3 +14,8 @@ $(document).on('click', '.expand-action', function(e){
 $(document).on('click', '.expand-action.fa.fa-minus', function(e){
     $(this).removeClass('fa-minus').addClass('fa-plus');
 })
+
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+  });
